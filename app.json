@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Fighting Covid",
+    "slug": "Fighting-Covid",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Images/iconLogoNoLabel.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "unt.fighting-covid-capstone",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "unt.fighting_covid_capstone",
+      "versionCode": 1,
+      "useNextNotificationsApi": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Images/iconLogoNoLabel.png",
+        "backgroundColor": "#191c24"
+      }
+    }
+  }
+}
